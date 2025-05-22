@@ -1,22 +1,38 @@
-# MVVM NodeJS
+# ⚙️ MVVM Node.js Microservice
 
-Model-View-ViewModel (MVVM) adalah pola desain perangkat lunak yang memisahkan pengembangan antarmuka pengguna (View), logika bisnis atau logika presentasi (ViewModel), dan manajemen data (Model).
+**MVVM (Model-View-ViewModel)** adalah arsitektur perangkat lunak yang memisahkan struktur aplikasi menjadi tiga bagian utama:  
+- **Model**: Mengelola data dan logika bisnis.  
+- **ViewModel**: Jembatan antara View dan Model, menangani proses data dan logika presentasi.  
+- **View**: Antarmuka pengguna atau representasi data.
 
-## Table of Contents
+Dengan arsitektur ini, kode menjadi lebih modular, mudah diuji, dan scalable.
 
-- [Instalasi](#instalasi)
-- [Menjalankan Proyek](#menjalankan-proyek)
-- [Struktur Proyek MVVM dengan Node.js](#struktur-proyek-mvvm-dengan-nodejs)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
+---
 
-## Instalasi
+## 📚 Daftar Isi
 
-Ikuti langkah-langkah berikut untuk menginstal Node.js dan npm serta memulai proyek Anda.
+- [📥 Instalasi](#📥-instalasi)
+- [🚀 Menjalankan Proyek](#🚀-menjalankan-proyek)
+- [📁 Struktur Proyek MVVM](#📁-struktur-proyek-mvvm)
+- [🤝 Kontribusi](#🤝-kontribusi)
+- [🪪 Lisensi](#🪪-lisensi)
 
-### Menginstal Node.js dan npm
+---
 
-#### Pada Windows:
+## 📥 Instalasi
+
+### 1. Persiapan Node.js & npm
+
+#### 💻 Windows
+
+- Unduh installer Node.js dari [https://nodejs.org/](https://nodejs.org/)
+- Pilih versi **LTS**.
+- Jalankan installer dan ikuti petunjuknya.
+- Verifikasi dengan:
+  ```sh
+  node -v
+  npm -v
+
 
 1. **Download Installer:**
    - Kunjungi situs web resmi Node.js di [https://nodejs.org/](https://nodejs.org/).
